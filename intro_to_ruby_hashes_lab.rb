@@ -40,7 +40,7 @@ def update_counting_hash(hash, key)
   key => 31
  }
  hash.fetch(key, 1)
-if hash[:rambutan]
+if hash[key]
  puts key[1 + 1]
 else
 puts key[1]
