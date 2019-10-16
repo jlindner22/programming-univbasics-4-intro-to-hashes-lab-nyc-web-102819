@@ -35,12 +35,11 @@ end
 def update_counting_hash(hash, key)
  value = 1
 if hash.has_key?(key)
- puts key[value + 1]
+  key[value + 1]
 else
-puts key[value]
+ key[value]
 end
 end
-  
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
