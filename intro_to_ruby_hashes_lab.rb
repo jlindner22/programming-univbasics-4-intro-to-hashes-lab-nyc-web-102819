@@ -40,8 +40,11 @@ def update_counting_hash(hash, key)
   key => 31
  }
  hash.fetch(key, 1)
-
-     end
+if hash[:rambutan]
+ puts "Rambutan present!"
+else
+puts "No rambutan."
+end
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
