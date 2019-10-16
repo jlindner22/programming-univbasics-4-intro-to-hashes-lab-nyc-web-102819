@@ -39,11 +39,12 @@ def update_counting_hash(hash, key)
   hash = {
   key => 31
  }
+ value = 1
  hash.fetch(key, 1)
 if hash[key]
- puts key[1 + 1]
+ puts key[value + 1]
 else
-puts key[1]
+puts key[value]
 end
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
