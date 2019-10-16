@@ -28,23 +28,14 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-# hash = {
-  # :key => "Steve"
- #}
- # hash["Steve"]
+hash = {
+:key => "Steve"
+}
+ hash["Steve"]
 end
 
 
 def update_counting_hash(hash, key)
-  hash = {
-  key => 31
- }
- value = 1
-if hash.has_key?(key)
- puts key[value + 1]
-else
-puts key[value]
-end
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
