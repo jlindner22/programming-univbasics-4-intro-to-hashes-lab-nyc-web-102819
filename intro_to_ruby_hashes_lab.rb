@@ -41,7 +41,7 @@ def update_counting_hash(hash, key)
  }
  hash.fetch(key, 1)
 if hash[:rambutan]
- puts "Rambutan present!"
+ puts key[1 + 1]
 else
 puts key[1]
 end
