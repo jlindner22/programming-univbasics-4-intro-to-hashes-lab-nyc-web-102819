@@ -39,7 +39,7 @@ def update_counting_hash(hash, key)
   hash = {
   key => 31
  }
- hash[key] = key + 1
+ hash[key] = [key + 1]
  hash.fetch(key, 1)
 
      end
