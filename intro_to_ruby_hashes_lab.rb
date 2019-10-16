@@ -40,8 +40,8 @@ def update_counting_hash(hash, key)
   key => 31
  }
  hash.fetch(key, 1)
- if h.has_key?(:ferrets); h[:ferrets] += 1; 
-   else h[:ferrets] = 1; 
+ if h.has_key?(key); h[key] += 1; 
+   else h[key] = 1; 
      end
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
