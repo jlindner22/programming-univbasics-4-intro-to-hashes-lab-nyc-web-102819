@@ -40,7 +40,6 @@ def update_counting_hash(hash, key)
   key => 31
  }
  value = 1
- hash.fetch(key, 1)
 if hash[key]
  puts key[value + 1]
 else
