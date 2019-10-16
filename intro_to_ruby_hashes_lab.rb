@@ -39,8 +39,7 @@ def update_counting_hash(hash, key)
   hash = {
   key => 31
  }
-h.default_proc = proc do |hash, key|
-  hash[key] = [key] + 1
+ hash.fetch(key, 1)
 end
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
