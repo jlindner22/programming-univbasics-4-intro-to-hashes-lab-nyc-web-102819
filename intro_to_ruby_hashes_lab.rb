@@ -43,7 +43,7 @@ def update_counting_hash(hash, key)
 if hash[:rambutan]
  puts "Rambutan present!"
 else
-puts "No rambutan."
+puts key[1]
 end
 end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
